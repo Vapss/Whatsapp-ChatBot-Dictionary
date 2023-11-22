@@ -27,6 +27,10 @@ async def reply(Body: str = Form()):
         definition = data[0]["shortdef"][0]
 
         send_message(whatsapp_number, definition)
+        
+        dictionary_db = {"word": Body, "definition": definition}
+        dictionary_collection.insert_one(dictionary_db)
+        flag = "Definition sent successfully"
     else:
         return send_message(whatsapp_number, flag)
 
