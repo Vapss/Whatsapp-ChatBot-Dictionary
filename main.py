@@ -6,6 +6,7 @@ import os
 from typing import List
 from models import dictionary_collection
 import urllib.parse
+from utils import obtain_definitions_mongo
 
 load_dotenv()
 
@@ -35,3 +36,8 @@ async def reply(Body: str = Form()):
         return send_message(whatsapp_number, flag)
 
     return ""
+
+@app.get("/definitions")
+async def get_definitions():
+    definitions = obtain_definitions_mongo()
+    return list(definitions)
