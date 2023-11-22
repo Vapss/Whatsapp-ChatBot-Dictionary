@@ -136,7 +136,11 @@ src/package.json
 src/.deta/state
 src/.deta/prog_info
 
+# Ignorar main.py, models.py y utils.py
 main.py
 models.py
 utils.py
+```
+
+
 
