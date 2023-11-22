@@ -24,3 +24,8 @@ https://dashboard.ngrok.com/
 
 ## Creamos cuenta en el API de Merriam-Webster (Collegiate Dictionary y Collegiate Thesaurus)
 https://www.dictionaryapi.com/register/index
+
+## Ejecucion
+
+- En la consola con el env activado: uvicorn main:app --reload
+- En otra consola: ngrok http 8000
