@@ -22,3 +22,5 @@ https://console.twilio.com/
 Para recibir mensajes Twilio en el backend, utilizarás ngrok para alojar el host local en un servidor público.
 https://dashboard.ngrok.com/
 
+## Creamos cuenta en el API de Merriam-Webster (Collegiate Dictionary y Collegiate Thesaurus)
+https://www.dictionaryapi.com/register/index
