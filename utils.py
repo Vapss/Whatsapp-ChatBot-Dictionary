@@ -2,6 +2,8 @@ from twilio.rest import Client
 from dotenv import load_dotenv
 import os
 import logging
+import urllib.parse
+import re
 
 # Load the .env file
 
@@ -34,7 +36,7 @@ def send_message(to_number, text):
 def obtain_definitions_mongo():
     try:
         definitions = dictionary_collection.find()
-        logger.info(f"Definitions obtained from MongoDB")
+        logger.info("Definitions obtained from MongoDB")
     except Exception as e:
         logger.error(f"Error obtaining definitions from MongoDB: {e}")
     return definitions
