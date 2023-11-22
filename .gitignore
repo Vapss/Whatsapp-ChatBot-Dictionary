@@ -136,6 +136,12 @@ src/package.json
 src/.deta/state
 src/.deta/prog_info
 
+<<<<<<< HEAD
 
 
+=======
+main.py
+models.py
+utils.py
+>>>>>>> parent of 372d373 (Update .gitignore)
 
