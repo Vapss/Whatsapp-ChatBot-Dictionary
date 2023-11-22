@@ -15,7 +15,10 @@ pip install -r requirements.txt
 https://cloud.mongodb.com/
 
 ## Creamos cuenta en Twilio para tener un numero de whatsapp
+Para configurar el sandbox de Twilio para WhatsApp, vaya a Twilio Console. En Desarrollo, haga clic en Mensajería y, a continuación, en Probar. En Probar, haga clic en Enviar un mensaje de WhatsApp.
+https://console.twilio.com/
 
 ## Creamos cuenta en NGROK 
-
+Para recibir mensajes Twilio en el backend, utilizarás ngrok para alojar el host local en un servidor público.
+https://dashboard.ngrok.com/
 
