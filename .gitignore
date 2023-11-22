@@ -137,8 +137,14 @@ src/.deta/state
 src/.deta/prog_info
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+main.py
+models.py
+utils.py
+>>>>>>> parent of 372d373 (Update .gitignore)
 =======
 main.py
 models.py
